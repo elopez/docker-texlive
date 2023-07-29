@@ -1,4 +1,4 @@
-FROM registry.gitlab.com/islandoftex/images/texlive:latest
+FROM ghcr.io/elopez/islandoftex-images-texlive/texlive:edge
 
 LABEL \
   org.opencontainers.image.title="Full TeX Live with additions" \
